@@ -15,7 +15,7 @@ public class ReadCSVContentDemo {
         CSVReader reader=null;
         try
         {
-            fr=new FileReader("E:\\Example\\Employees.csv");
+            fr=new FileReader("C:\\Example\\Employees.csv");
             reader=new CSVReader(fr);
 
             String data[]=null;
